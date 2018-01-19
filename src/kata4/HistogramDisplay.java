@@ -35,11 +35,11 @@ public class HistogramDisplay extends ApplicationFrame {
         
     
     }
-
+    
     private JFreeChart createChart(DefaultCategoryDataset dataSet) {
         
-        JFreeChart chart = ChartFactory.createBarChart3D("JFreeChart Histogram", "Dominios email", "Nº de emails", dataSet, PlotOrientation.VERTICAL, false, rootPaneCheckingEnabled, rootPaneCheckingEnabled);
-    
+        JFreeChart chart = ChartFactory.createBarChart3D("JFreeChart Histogram", "Dominios email", "Nยบ de emails", dataSet, PlotOrientation.VERTICAL, false, rootPaneCheckingEnabled, rootPaneCheckingEnabled);
+   
         return chart;
     }
     
